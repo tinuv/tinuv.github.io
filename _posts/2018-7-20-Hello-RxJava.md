@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '初始RxJava'
+title: '初识RxJava'
 subtitle: ''
 date: 2018-07-20
 categories: RxJava
