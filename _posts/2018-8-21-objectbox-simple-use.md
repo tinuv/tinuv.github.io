@@ -14,7 +14,7 @@ ObjectBox也是greenrobot团队开发的orm框架,一开始我看这名字以为
 ObjectBox只要引入一个插件就可以了
 
 在project的build.gradle中引入插件
-```
+```Java
 buildscript {
     ext.objectboxVersion = '2.1.0'
     dependencies {
@@ -23,7 +23,7 @@ buildscript {
 }
 ```
 在app模块的bulid.gradle应用插件
-```
+```Java
 apply plugin: 'io.objectbox' // after applying Android plugin
 ```
 

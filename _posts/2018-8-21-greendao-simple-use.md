@@ -17,7 +17,7 @@ tags: Android 数据库
 一般我们都是在app模块(Module:app)下添加依赖,但greenDAO在project的build.gradle都要配置,在project的build.gradle是要引入插件,在app模块引入是为了引入这个包和配置greenDAO的一些属性.
 这是官方的配置
 ## 在project下的build.gradle
-```
+```Java
 // In your root build.gradle file:
 buildscript {
     repositories {
@@ -32,7 +32,7 @@ buildscript {
 ```
 
 ## 在app模块下的build.gradle
-```
+```Java
 // In your app projects build.gradle file:
 apply plugin: 'com.android.application'
 apply plugin: 'org.greenrobot.greendao' // apply plugin
@@ -44,7 +44,7 @@ dependencies {
 
 
 ## greenDAO的配置(在app模块下)
-```
+```Java
 greendao{
     schemaVersion 2 // 数据库版本号
     daoPackage  'me.tinuv.greendaopractice.greendao'//greenDao 自动生成的代码保存的包名
@@ -63,7 +63,7 @@ debugImplementation 'com.amitshekhar.android:debug-db:1.0.4'
 ## `Android-Debug-Database`的配置
 主要是配置端口号
 这个实在app模块配置
-```
+```Java
     buildTypes {
         release {
             minifyEnabled false
