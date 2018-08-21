@@ -9,11 +9,6 @@ tags: Android 数据库
 ---
 
 
-<iframe src="//player.bilibili.com/player.html?aid=2527058&cid=3949566&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"
- width="720" height="484"> </iframe>
-
-
-
 # 介绍
 ObjectBox也是greenrobot团队开发的orm框架,一开始我看这名字以为他能够储存一些复杂的对象,或者自动依照关系储存复杂的对象,但很遗憾,它并不能,要储存复杂的对象还是需要手动的定义一对一关系或者一对多关系,数据库只能储存一些基本数据类型.这些关系需要学习数据库的设计,我打算从现在(2018年8月21日)开始学习,反正这个学期也要学数据库了.作为学习的一部分,这篇博客会记录下ObjectBox的基本使用.
 
