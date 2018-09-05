@@ -24,7 +24,7 @@ If the investigation **uncovers** anything
 如果这项调查**揭露**了任何事情
 
 ---
-the *&Federal Communications Commission** **fined** AT&T $100 million over **accusations** that the **carrier** secretly reduced wireless speeds after customers consumed **a certain amount of** data.
+the **Federal Communications Commission** **fined** AT&T $100 million over **accusations** that the **carrier** secretly reduced wireless speeds after customers consumed **a certain amount of** data.
 
 **联邦通信委员会罚款**了1亿美元**指控**这家运营公司在消费者消费了**一定数量**的数据后秘密的降低无线网络的速度
 
