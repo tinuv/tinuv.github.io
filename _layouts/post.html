@@ -30,6 +30,26 @@
   </header>
 
   <div class="post-content visible">
+  	<audio src="https://github.com/tinuv/MyResource/blob/master/test.mp3?raw=true" id="audio"></audio>
+<svg id="container">
+    <g id="warpper">
+        <rect id="bottom" fill="#000" style="fill-opacity: 0.05;">
+        </rect>
+        <rect id="bar">
+        </rect>
+        <g id="key" transform="translate(200,0)">
+
+            <svg viewBox="0 0 1024 1024" version="1.1" id="pause">
+                <path opacity="0.45"
+                      d="M625.777778 170.666667h113.777778v682.666666h-113.777778V170.666667zM284.444444 170.666667h113.777778v682.666666H284.444444V170.666667z"></path>
+            </svg>
+            <svg viewBox="0 0 1024 1024" id="play">
+                <path opacity="0.45"
+                      d="M336 269.824V756l330.92-243.088L336 269.824z m-1.32-100.24l413.152 303.504a49.424 49.424 0 0 1 0 79.656L334.68 856.24A49.424 49.424 0 0 1 256 816.4V209.424a49.424 49.424 0 0 1 78.68-39.84z"></path>
+            </svg>
+        </g>
+    </g>
+</svg>
     {% if page.subtitle %}
     <h2 class="post-subtitle">{{ page.subtitle }}</h2>
     {% endif %}
@@ -139,6 +159,7 @@
   </script>
   {% endif %}
 
+  <script src="/assets/js/musicplay.js"></script>
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
 </body>
