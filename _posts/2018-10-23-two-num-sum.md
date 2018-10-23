@@ -37,3 +37,151 @@ class Solution {
     }
 }
 ```
+
+# 我的解决方案
+```Java
+public class TwoNumSum {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode temp1 = l1;
+        ListNode temp2 = l2;
+        ListNode result = null;
+        ListNode currentPoint = null;
+        while (temp1 != null || temp2 != null) {
+            if (temp1 != null && temp2 != null) {
+                int currCarry = (temp1.val + temp2.val) / 10;
+                int num = temp1.val + temp2.val - currCarry * 10;
+                if (result == null) {
+                    if (currCarry > 0) {
+                        currentPoint = new ListNode(num);
+                        currentPoint.next = new ListNode(currCarry);
+                        result = currentPoint;
+                    } else {
+                        currentPoint = new ListNode(num);
+                        result = currentPoint;
+                    }
+                } else {
+                    if (currentPoint.next != null) {
+                        if (currCarry > 0) {
+                            currentPoint.next.val = currentPoint.next.val + num;
+                            currentPoint.next.next = new ListNode(currCarry);
+                            currentPoint = currentPoint.next;
+                        } else {
+                            currentPoint.next.val = currentPoint.next.val + num;
+                            if (currentPoint.next.val == 10) {
+                                currentPoint.next.val = 0;
+                                currentPoint.next.next = new ListNode(1);
+                            }
+                            currentPoint = currentPoint.next;
+                        }
+                    } else {
+                        if (currCarry > 0) {
+                            currentPoint.next = new ListNode(num);
+                            currentPoint.next.next = new ListNode(currCarry);
+                            currentPoint = currentPoint.next;
+                        } else {
+                            currentPoint.next = new ListNode(num);
+                            currentPoint = currentPoint.next;
+                        }
+                    }
+                }
+                temp1 = temp1.next;
+                temp2 = temp2.next;
+            } else if (temp1 != null) {
+                if (currentPoint.next != null) {
+                    currentPoint.next.val = currentPoint.next.val + temp1.val;
+                    if (currentPoint.next.val == 10) {
+                        currentPoint.next.val = 0;
+                        currentPoint.next.next = new ListNode(1);
+                    }
+                    currentPoint = currentPoint.next;
+                } else {
+                    currentPoint.next = new ListNode(temp1.val);
+                    currentPoint = currentPoint.next;
+                }
+                temp1 = temp1.next;
+                temp2 = temp2.next;
+            } else {
+                if (currentPoint.next != null) {
+                    currentPoint.next.val = currentPoint.next.val + temp2.val;
+                    if (currentPoint.next.val == 10) {
+                        currentPoint.next.val = 0;
+                        currentPoint.next.next = new ListNode(1);
+                    }
+                    currentPoint = currentPoint.next;
+                } else {
+                    currentPoint.next = new ListNode(temp2.val);
+                    currentPoint = currentPoint.next;
+                }
+                temp1 = temp1.next;
+                temp2 = temp2.next;
+            }
+        }
+        return result;
+    }
+}
+
+class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode(int x) {
+        val = x;
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        ListNode head1 = new ListNode(5);
+        head1.next = new ListNode(3);
+        head1.next.next = new ListNode(4);
+        ListNode head2 = new ListNode(5);
+        head2.next = new ListNode(4);
+        TwoNumSum sum = new TwoNumSum();
+        ListNode res = sum.addTwoNumbers(head1, head2);
+        System.out.println(res.val + "->" + res.next.val);
+    }
+}
+```
+
+# 大佬的解决方案
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode rs = null;
+        ListNode last = null;
+        ListNode cur = null;
+        int val = 0;
+        while (null != l1 || null != l2) {
+            if (null != l1) {
+                val += l1.val;
+                l1 = l1.next;
+            }
+            if (null != l2) {
+                val += l2.val;
+                l2 = l2.next;
+            }
+            cur = new ListNode(val % 10);
+            val = val / 10;
+            if (null == last) {
+                rs = cur;
+            } else {
+                last.next = cur;
+            }
+            last = cur;
+        }
+        if (val > 0) {
+            cur = new ListNode(val);
+            last.next = cur;
+        }
+        return rs;
+    }
+}
+```
