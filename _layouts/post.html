@@ -56,6 +56,15 @@
 
     <article class="markdown-body">
       {{ page.content }}
+      <div style="padding: 0 20px 0;margin: 20px 0;line-height: 3px;border-left: 200px solid #ddd;border-right: 200px solid #ddd;text-align: center;"><span>🌹💗正文结束💗🌹</span></div>
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '7Aj84mjIrWvKPG8GfrespY3q-gzGzoHsz',
+            appKey: 'AGrR0L84x44WnQ3VugGgRSC2',
+        })
+    </script>
     </article>
 
     {% if site.social-share %}
