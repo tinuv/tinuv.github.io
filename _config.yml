@@ -2,7 +2,7 @@
 title: 'Tinuv的个人博客'
 description: '你只有很努力,才能看起来毫不费力'
 keyword: 'Tinuv, Android, 编程, 博客'
-url: 'http://tinuv.me' # your host
+url: 'https://tinuv.me' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
