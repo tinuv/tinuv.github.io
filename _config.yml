@@ -20,7 +20,7 @@ footer:
 author: 'Tinuv'
 nickname: ''
 bio: '你只有很努力,才能看起来毫不费力'
-avatar: '/assets/img/profile.png'
+avatar: 'https://tinuv.me/assets/img/profile.png'
 
 # Search
 search: true
