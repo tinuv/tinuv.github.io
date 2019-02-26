@@ -1,3 +1,12 @@
+---
+layout: post
+title: 'Fragment基础知识'
+subtitle: ''
+date: 2019-2-24
+categories: Android知识体系
+cover: ''
+tags: Android知识体系 Fragment
+---
 # 基础知识
 Fragment，简称碎片，是Android 3.0（API 11）提出的，为了兼容低版本，support-v4库中也开发了一套Fragment API，最低兼容Android 1.6。
 
@@ -142,6 +151,75 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+
+# FragmentManager的常用API
+
+* getFragments():可以获取所有创建时候add进去的所有Fragment；通常可以通过这个api来获取需要指定操作的fragment对象
+
+* manager.findFragmentByTag(String tag): 通过TAG获取指定的Fragment；这个TAG，是在创建Fragment时，调用addToBackStack(String tag)进行绑定关系的
+
+我也不知道为什么,总是没法获得Fragment,总是空指针
+
+* popBackStack()： 弹出栈顶fragment
+
+* popBackStack(String tag,int flags)：
+
+tag可以为null或者相对应的tag，flags只有0和1(POP_BACK_STACK_INCLUSIVE)两种情况
+如果tag为null，flags为0时，弹出回退栈中最上层的那个fragment。
+如果tag为null ，flags为1时，弹出回退栈中所有fragment。
+如果tag不为null，那就会找到这个tag所对应的fragment，flags为0时，弹出该 
+fragment以上的Fragment，如果是1，弹出该fragment（包括该fragment）以 
+上的fragment。
+popBackStackImmediate相关的方法与上面逻辑是一样的与上面不同的是，在调用的时候会立即执行弹出。
+
+# FragmentTransaction的常用API
+
+* add()：将一个Fragment实例对象添加到集合列表的尾部，当展示的时候会在activity的最上层
+* remove()：将一个Fragment实例对象从存储的集合列表中移除，并且将其从UI界面中销毁
+* replace()：将上一个Fragmnt的实例对象从存储的集合列表中移除，将当前的Fragment实例对象添加到存储的链表尾部，当展示的时候会在activity的最上层
+* hide()：将一个fragment，从展示状态隐藏起来，实例对象不被销毁
+* show()：将一个fragment实例对象，展示出来
+* addToBackStack()：将fragment添加到回退栈中
+* 
+
+**add() 和 replace() 运用总结：**
+
+在项目的使用中，通常习惯使用add()加载，add方式视图不会重建，会被保存起来，而replace()每次都会remove掉前面的视图，而replace方式的回退，旧的视图每一次都会重建，在用户体验上不好。
+
+add()和replace()的使用，不能够混合使用，在混合使用的情况下，会导致回退栈混乱，导致的原因是在回退过程中记录的角标存在问题
+
+## FragmentTransaction遇到的一个错位.
+
+
+```java
+java.lang.IllegalStateException: commit already called
+```
+
+这个错误是将FragmentTransaction作为了一个变量  
+如:
+```java
+    FragmenTransaction ft = getSupportFragmentManager().beginTransaction();
+    ft.add(fragment)
+      .commit();
+      
+    ft.hide(fragment)
+      .commit();
+```
+就会报这个错误
+
+只要每次commit()之前都beginTransaction()就好了
+
+```java
+    getSupportFragmentManager().beginTransaction()
+        .add(fragment)
+        .commit();
+      
+    getSupportFragmentManager().beginTransaction()
+        .hide(fragment)
+        .commit();
+```
+就不会报错了
+
 
 
 
