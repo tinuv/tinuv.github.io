@@ -3,9 +3,9 @@ layout: post
 title: '二维图形变换的数学基础'
 subtitle: ''
 date: 2019-3-7
-categories: Android知识体系
+categories: Android
 cover: ''
-tags: Android知识体系 图形变换
+tags: Android Android-前端 Android-前端-经验
 ---
 
 # 平移

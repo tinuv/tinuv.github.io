@@ -3,9 +3,9 @@ layout: post
 title: 'Djikstra温故知新'
 subtitle: ''
 date: 2019-2-23
-categories: PAT
+categories: 数据结构与算法
 cover: ''
-tags: C++ PAT 数据结构 算法
+tags: 数据结构与算法 数据结构与算法-图
 ---
 
 # Djikstra算法思路

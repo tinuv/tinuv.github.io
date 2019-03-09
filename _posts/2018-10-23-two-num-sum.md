@@ -3,9 +3,9 @@ layout: post
 title: '两数相加'
 subtitle: '算法虐我千百遍,我待算法如初恋'
 date: 2018-10-23
-categories: 算法
+categories: 数据结构与算法
 cover: ''
-tags: 算法 leetcode
+tags: 数据结构与算法 数据结构与算法-LeetCode
 ---
 
 # 题目描述

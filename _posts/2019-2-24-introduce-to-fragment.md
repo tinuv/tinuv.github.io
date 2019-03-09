@@ -3,9 +3,9 @@ layout: post
 title: 'Fragment基础知识'
 subtitle: ''
 date: 2019-2-24
-categories: Android知识体系
+categories: Android
 cover: ''
-tags: Android知识体系 Fragment
+tags: Android Android-前端 Android-前端-自带组件
 ---
 # 基础知识
 Fragment，简称碎片，是Android 3.0（API 11）提出的，为了兼容低版本，support-v4库中也开发了一套Fragment API，最低兼容Android 1.6。

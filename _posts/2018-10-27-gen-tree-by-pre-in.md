@@ -3,9 +3,9 @@ layout: post
 title: '由先序遍历和中序遍历生成二叉树'
 subtitle: '算法虐我千百遍,我待算法如初恋'
 date: 2018-10-27
-categories: 算法
+categories: 数据结构与算法
 cover: 'https://github.com/tinuv/MyResource/blob/master/IMG_20181027_203321.jpg?raw=true'
-tags: 算法 PAT 二叉树
+tags: 数据结构与算法 数据结构与算法-PAT 数据结构与算法-树
 ---
 # 算法思想
 生成算法是递归的,对于先序序列来讲,第一个元素就是当前子树的根节点,对于中序序列来讲,每一个中序序列都会被分割为两个部分,这两个部分就是下一次的要构造的子树,所以说生成子树的过程是自顶向下的

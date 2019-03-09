@@ -3,9 +3,9 @@ layout: post
 title: 'Handler解析'
 subtitle: ''
 date: 2019-3-3
-categories: Android知识体系
+categories: Android
 cover: ''
-tags: Handler
+tags: Android Android-后端 Android-后端-自带组件 Android-后端-多线程调度
 ---
 
 

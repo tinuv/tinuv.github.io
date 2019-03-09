@@ -3,9 +3,9 @@ layout: post
 title: '2018年8月23日英语学习'
 subtitle: ''
 date: 2018-08-23
-categories: 英语学习
+categories: 英语
 cover: ''
-tags: 英语 略读总结
+tags: 英语
 ---
 # 新句
 ---

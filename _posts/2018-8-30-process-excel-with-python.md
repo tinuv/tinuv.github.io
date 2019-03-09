@@ -5,7 +5,7 @@ subtitle: ''
 date: 2018-08-30
 categories: Python
 cover: ''
-tags: Python
+tags: Python Python-第三方库
 ---
 # 介绍
 最近要处理一些excel文件,不想手动处理,想通过脚本处理,本来想使用pandas这个模块处理,但是网络环境很差,没有办法安装,pandas内部是使用xlrd和xlwt处理的,所以不如直接使用这两个模块来处理excel文件,考虑到以后还有可能使用python来处理excel文件所以记录下来.

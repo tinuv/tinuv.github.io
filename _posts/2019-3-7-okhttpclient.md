@@ -3,9 +3,9 @@ layout: post
 title: 'OkkHttp客户端配置项'
 subtitle: ''
 date: 2019-3-7
-categories: Android知识体系
+categories: Android
 cover: ''
-tags: Android知识体系 OkHttp
+tags: Android Android-后端 Android-后端-第三方库 Android-后端-网络
 ---
 
 

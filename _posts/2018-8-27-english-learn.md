@@ -5,7 +5,7 @@ subtitle: ''
 date: 2018-08-27
 categories: 英语
 cover: ''
-tags: 英语 略读总结
+tags: 英语
 ---
 # 新句
 ---

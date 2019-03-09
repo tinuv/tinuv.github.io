@@ -3,9 +3,9 @@ layout: post
 title: 'greenDAO的简单使用'
 subtitle: ''
 date: 2018-08-21
-categories: Android后端框架
+categories: Android
 cover: ''
-tags: Android 数据库
+tags: Android Android-后端 Android-后端-第三方库 Android-后端-数据库
 ---
 # 写在前面
 今天想学习一下greenDAO,它是Android中最有名的ORM(对象关系映射)的一个库,这个库更像是一个后端框架,尤其是当我学习过Spring Boot后有这种感觉,它的很大作用就是简化了程序人员对数据库的操作

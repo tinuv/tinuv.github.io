@@ -3,9 +3,9 @@ layout: post
 title: 'Java反射机制入门'
 subtitle: ''
 date: 2018-07-22
-categories: Java
+categories: Android
 cover: ''
-tags: Java 反射
+tags: Android Android-Java Android-Java-语言技巧
 ---
 #### 介绍
 Java的反射机制我学习Java以来一直很忽视,一直到我最近学习Spring框架和各种注解框架了解到幕后的反射机制是背后的功臣,才下定决心要好好的学一学.Java反射机制是在运行状态中,对于任意一个类,都能获得这个类的所有属性和方法,对于任何一个对象都能调用它的任意一个属性和方法.要使用Java的反射机制主要使用的是Class类java.lang.reflect包

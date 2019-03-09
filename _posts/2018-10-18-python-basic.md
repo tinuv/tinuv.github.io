@@ -5,7 +5,7 @@ subtitle: ''
 date: 2018-10-18
 categories: Python
 cover: ''
-tags: Python Python基础知识
+tags: Python Python-自带组件 Python-语言技巧
 ---
 # 基础知识
 * Python编码

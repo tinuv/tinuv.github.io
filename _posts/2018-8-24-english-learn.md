@@ -5,7 +5,7 @@ subtitle: ''
 date: 2018-08-24
 categories: 英语
 cover: ''
-tags: 英语 阅读理解
+tags: 英语
 ---
 # 新句
 ## 短篇1主题:中年危机(midlife crisis)

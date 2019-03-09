@@ -3,9 +3,9 @@ layout: post
 title: 'OMG Partical Practice'
 subtitle: ''
 date: 2018-09-12
-categories: D3
+categories: 前端
 cover: ''
-tags: D3 数据可视化
+tags: 前端 前端-数据可视化
 ---
 # 介绍
 通过D3可以用很简单的代码实现很炫酷的效果,这个动画主要通过鼠标的移动为驱动的动画,它分为两个部分,一个是获得鼠标或触摸的位置坐标,一个是圆的生成和消散动画.

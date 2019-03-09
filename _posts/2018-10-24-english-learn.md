@@ -5,7 +5,7 @@ subtitle: ''
 date: 2018-10-24
 categories: 英语
 cover: ''
-tags: 英语 略读
+tags: 英语
 ---
 # 新句
 the wisdom of the ancient Greek **philosophers** is **timeless**

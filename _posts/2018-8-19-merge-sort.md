@@ -3,9 +3,9 @@ layout: post
 title: '合并排序'
 subtitle: ''
 date: 2018-08-19
-categories: 算法
+categories: 数据结构与算法
 cover: ''
-tags: 算法 Java
+tags: 数据结构与算法 数据结构与算法-排序
 ---
 
 # 介绍

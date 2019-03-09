@@ -3,9 +3,9 @@ layout: post
 title: '无重复最长子串'
 subtitle: '算法虐我千百遍,我待算法如初恋'
 date: 2018-10-24
-categories: 算法
+categories: 数据结构与算法
 cover: ''
-tags: 算法 leetcode 滑动窗口
+tags: 数据结构与算法 数据结构与算法-LeetCode
 ---
 # 题目描述
 给定一个字符串，找出不含有重复字符的最长子串的长度。

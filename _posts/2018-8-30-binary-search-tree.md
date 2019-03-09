@@ -3,9 +3,9 @@ layout: post
 title: '二叉查找树'
 subtitle: ''
 date: 2018-08-30
-categories: 数据结构
+categories: 数据结构与算法
 cover: ''
-tags: 数据结构 算法
+tags: 数据结构与算法 数据结构与算法-二叉查找树
 ---
 # 介绍
 二叉查找树是一颗空树,或者是具有如下性质的树:

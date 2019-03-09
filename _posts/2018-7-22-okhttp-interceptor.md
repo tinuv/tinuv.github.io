@@ -3,9 +3,9 @@ layout: post
 title: 'okhttp拦截器'
 subtitle: ''
 date: 2018-07-22
-categories: Java
+categories: Android
 cover: ''
-tags: Java okhttp 拦截器
+tags: Android Android-后端 Android-后端-第三方库 Android-后端-网络
 ---
 #### 介绍
 拦截器可以实现网络监听,网络请求,响应重写和请求失败重试的功能.

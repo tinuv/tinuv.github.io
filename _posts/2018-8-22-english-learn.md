@@ -3,9 +3,9 @@ layout: post
 title: '四级感悟'
 subtitle: ''
 date: 2018-08-22
-categories: 生活学习
+categories: 英语
 cover: 'https://s1.ax1x.com/2018/08/22/Po5OJg.jpg'
-tags: 英语 学习
+tags: 英语
 ---
 
 

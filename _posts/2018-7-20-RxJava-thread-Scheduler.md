@@ -3,9 +3,9 @@ layout: post
 title: 'RxJava线程调度'
 subtitle: ''
 date: 2018-07-20
-categories: RxJava
+categories: Android
 cover: ''
-tags: RxJava Java Android Thread
+tags: Android Android-后端 Android-后端-第三方库 Android-后端-线程调度
 ---
 
 #### 介绍

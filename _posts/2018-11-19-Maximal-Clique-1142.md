@@ -3,9 +3,9 @@ layout: post
 title: '图的最大团(maximal Clique 1142)'
 subtitle: ''
 date: 2018-11-19
-categories: PAT
+categories: 数据结构与算法
 cover: ''
-tags: PAT 图 算法 数据结构
+tags: 数据结构与算法 数据结构与算法-PAT 数据结构与算法-图
 ---
 # 描述
 A clique is a subset of vertices of an undirected graph such that every two distinct vertices in the clique are adjacent. A maximal clique is a clique that cannot be extended by including one more adjacent vertex. (Quoted from https://en.wikipedia.org/wiki/Clique_(graph_theory))

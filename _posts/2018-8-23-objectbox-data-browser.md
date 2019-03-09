@@ -3,9 +3,9 @@ layout: post
 title: 'ObjectBox Data Browser的使用'
 subtitle: ''
 date: 2018-08-23
-categories: Android后端框架
+categories: Android
 cover: ''
-tags: ObjectBox Android
+tags: Android Android-后端 Android-后端-第三方库 Android-后端-数据库
 ---
 # 介绍
 ObjectBox Data Browser是一个object box数据库可视化的一个工具,在调试中非常有用,能够让你形成数据库的视觉模型,所以我觉得是非常有用的,但是为了使用这个工具也是折腾了我很久,一个原因是我对Gradle不熟,一个是我英语不够好,人家注意事项写在哪里,但我就是理解错误了.

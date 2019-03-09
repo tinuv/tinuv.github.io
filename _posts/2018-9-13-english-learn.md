@@ -5,7 +5,7 @@ subtitle: ''
 date: 2018-09-13
 categories: 英语
 cover: ''
-tags: 英语 阅读理解
+tags: 英语
 ---
 # 句子
 ---

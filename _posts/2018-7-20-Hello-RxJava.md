@@ -3,9 +3,9 @@ layout: post
 title: '初识RxJava'
 subtitle: ''
 date: 2018-07-20
-categories: RxJava
+categories: Android
 cover: ''
-tags: RxJava Java Android
+tags: Android Android-后端 Android-后端-第三方库
 ---
 ### 介绍
 RxJava是JVM的响应式扩展,其实我现在也不知道它是什么意思,因为我现在也没有用过响应式编程,它提到了JVM,我也不知道它具体根JVM有多大的联系,它还提到了观察者模式的设计模式,扩展的观察者模式(`It extends the observer pattern`),这个我有一点了解.作为认识的一部分,我先摆在这里.

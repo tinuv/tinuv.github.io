@@ -3,9 +3,9 @@ layout: post
 title: '缺失的数|The Missing Number_1144'
 subtitle: ''
 date: 2018-11-12
-categories: PAT
+categories: 数据结构与算法
 cover: ''
-tags: PAT 算法 数据结构
+tags: 数据结构与算法 数据结构与算法-PAT
 ---
 # 描述
 Given N integers, you are supposed to find the smallest positive integer that is NOT in the given list.

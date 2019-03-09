@@ -3,9 +3,9 @@ layout: post
 title: 'Sing Threaded Execution'
 subtitle: ''
 date: 2018-07-20
-categories: 设计模式
+categories: Android
 cover: ''
-tags: Thread 设计模式
+tags: Android Android-Java Android-Java-设计模式
 ---
 Single Threaded Execution其实跟前面那个银行取款的例子是差不多的,就是一个对象可能被多个线程访问,但不能让多个线程并行访问,因为一旦并行访问就有可能导致错误,具体原因跟前面的分析是一样的,解决的方法同样是加关键词synchronized.
 

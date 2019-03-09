@@ -5,7 +5,7 @@ subtitle: ''
 date: 2018-09-02
 categories: 英语
 cover: ''
-tags: 英语 选词填空
+tags: 英语
 ---
 # 新句
 ---

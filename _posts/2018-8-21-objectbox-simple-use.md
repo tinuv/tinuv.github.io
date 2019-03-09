@@ -3,9 +3,9 @@ layout: post
 title: 'ObjectBox的简单使用'
 subtitle: ''
 date: 2018-08-21
-categories: Android后端框架
+categories: Android
 cover: ''
-tags: Android 数据库
+tags: Android Android-后端 Android-后端-第三方库 Android-后端-数据库
 ---
 
 

@@ -3,9 +3,9 @@ layout: post
 title: 'PAT:1149-危险物品打包-Dangerous Goods Packaging'
 subtitle: '算法虐我千百遍,我待算法如初恋'
 date: 2018-10-30
-categories: 算法
+categories: 数据结构与算法
 cover: ''
-tags: 算法 PAT 哈希表
+tags: 数据结构与算法 数据结构与算法-PAT 数据结构与算法-图
 ---
 # 描述
 When shipping goods with containers, we have to be careful not to pack some incompatible goods into the same container, or we might get ourselves in serious trouble. For example, oxidizing agent （氧化剂） must not be packed with flammable liquid （易燃液体）, or it can cause explosion.

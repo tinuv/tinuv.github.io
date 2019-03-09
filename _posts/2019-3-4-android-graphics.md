@@ -3,9 +3,9 @@ layout: post
 title: 'Android图形类库简要学习'
 subtitle: ''
 date: 2019-3-4
-categories: Android知识体系
+categories: Android
 cover: ''
-tags: Android知识体系 Android-View Android-Graphics
+tags: Android Android-前端 Android-前端-自带组件
 ---
 
 Android 图形类包主要包括android.graphics的一些类,这些类是Android对图形的支持.

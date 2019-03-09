@@ -3,9 +3,9 @@ layout: post
 title: 'C++学习_算法_九(三)'
 subtitle: ''
 date: 2019-2-27
-categories: C++
+categories: 数据结构与算法
 cover: ''
-tags: C++ PAT
+tags: 数据结构与算法 数据结构与算法-语言技巧
 ---
 
 

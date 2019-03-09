@@ -5,7 +5,7 @@ subtitle: ''
 date: 2018-08-24
 categories: ObjectBox
 cover: ''
-tags: Android 数据库 ObjectBox
+tags: Android Android-后端 Android-后端-第三方库 Android-后端-数据库
 ---
 # 介绍
 使用objectbox可以储存一些具有复杂关系的数据,比如一对多关系,比如一对多关系和多对多关系.

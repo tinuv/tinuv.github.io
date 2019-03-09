@@ -3,9 +3,9 @@ layout: post
 title: '2018年8月22日英语学习'
 subtitle: ''
 date: 2018-08-22
-categories: 英语学习
+categories: 英语
 cover: ''
-tags: 英语 完形填空
+tags: 英语
 ---
 
 # 新词新句

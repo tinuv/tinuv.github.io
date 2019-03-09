@@ -3,9 +3,9 @@ layout: post
 title: '观察者模式'
 subtitle: ''
 date: 2018-07-20
-categories: 设计模式
+categories: Android
 cover: ''
-tags: 观察者模式 设计模式
+tags: Android Android-Java Android-Java-设计模式
 ---
 
 ### 介绍

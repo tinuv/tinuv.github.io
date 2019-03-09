@@ -5,7 +5,7 @@ subtitle: ''
 date: 2018-10-29
 categories: 英语
 cover: ''
-tags: 英语 阅读理解
+tags: 英语
 ---
 # 生词
 

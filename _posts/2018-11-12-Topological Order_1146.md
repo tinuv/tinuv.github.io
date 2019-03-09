@@ -3,9 +3,9 @@ layout: post
 title: '拓扑序|Topological Order_1146'
 subtitle: ''
 date: 2018-11-12
-categories: PAT
+categories: 数据结构与算法
 cover: ''
-tags: PAT 算法 数据结构
+tags: 数据结构与算法 数据结构与算法-PAT 数据结构与算法-图
 ---
 # 描述
 This is a problem given in the Graduate Entrance Exam in 2018: Which of the following is NOT a topological order obtained from the given directed graph? Now you are supposed to write a program to test each of the options.

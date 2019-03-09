@@ -3,9 +3,9 @@ layout: post
 title: 'n皇后问题'
 subtitle: ''
 date: 2018-09-05
-categories: 算法
+categories: 数据结构与算法
 cover: ''
-tags: 算法 回溯 n皇后问题
+tags: 数据结构与算法 数据结构与算法-剪枝回溯
 ---
 # 介绍
 n皇后问题是算法领域很有名的问题,它采用的一种很暴力也是很有用的算法:回溯算法.

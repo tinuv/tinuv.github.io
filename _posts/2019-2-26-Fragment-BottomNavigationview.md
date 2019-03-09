@@ -3,9 +3,9 @@ layout: post
 title: 'Fragment和BottomNavigationview实现导航布局'
 subtitle: ''
 date: 2019-2-26
-categories: Android知识体系
+categories: Android
 cover: ''
-tags: Android知识体系 Fragment
+tags: Android Android-前端 Android-前端-自带组件
 ---
 
 

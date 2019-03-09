@@ -3,9 +3,9 @@ layout: post
 title: '动态规划算法入门'
 subtitle: '算法虐我千百遍,我待算法如初恋'
 date: 2018-08-22
-categories: 动态规划
+categories: 数据结构与算法
 cover: ''
-tags: 算法 动态规划
+tags: 数据结构与算法 数据结构与算法-动态规划
 ---
 
 # 介绍
