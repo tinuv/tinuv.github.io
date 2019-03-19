@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '注解学习(一)'
+title: '注解学习'
 subtitle: ''
 date: 2019-3-18
 categories: Android
@@ -124,3 +124,66 @@ tags: Android Android-Java Android-Java-语言技巧
     }
 ```
 
+## 配合反射使用
+
+* 自定义注解
+
+  ```java
+  import java.lang.annotation.*;
+  
+  @Documented
+  @Retention(RetentionPolicy.RUNTIME)
+  @Target({ElementType.FIELD, ElementType.METHOD})
+  public @interface CostomAnnotation {
+      int code();
+  }
+  ```
+
+  
+
+* 使用注解
+
+  ```java
+  package annotationdemo;
+  
+  public class TestClass {
+      @CostomAnnotation(code = 10)
+      private int value;
+  
+      @Override
+      public String toString() {
+          return value + "";
+      }
+  }
+  ```
+
+  
+
+* 配合反射实现注入
+
+  ```java
+  package annotationdemo;
+  
+  import java.lang.reflect.Field;
+  
+  public class Main {
+      public static void main(String[] args) throws IllegalAccessException {
+          Class c = TestClass.class;
+          TestClass testClass = new TestClass();
+          Field[] fields = c.getDeclaredFields();
+          for (Field field : fields) {
+              if (field.isAnnotationPresent(CostomAnnotation.class)) {
+                  CostomAnnotation annotation = field.getAnnotation(CostomAnnotation.class);
+                  int code = annotation.code();
+                  field.setAccessible(true);
+                  field.setInt(testClass,code);
+                  System.out.println(testClass);
+              }
+          }
+  
+      }
+  }
+  
+  ```
+
+  
