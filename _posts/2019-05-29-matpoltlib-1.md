@@ -1,5 +1,4 @@
 ---
-​---
 layout: post
 title: '从一副图的绘制了解绘图的常用操作'
 subtitle: ''
@@ -8,7 +7,6 @@ categories: 数据分析
 cover: ''
 tags: 数据分析
 ​---
----
 
 
 
